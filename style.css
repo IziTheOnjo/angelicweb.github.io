@@ -12,7 +12,11 @@
    /* ==========================================================================
       Start of custom Webflow CSS
       ========================================================================== */
-   .hero-overlay {
+   body {
+       overflow-x: hidden;
+   }
+   
+      .hero-overlay {
      display: -webkit-box;
      display: -webkit-flex;
      display: -ms-flexbox;
